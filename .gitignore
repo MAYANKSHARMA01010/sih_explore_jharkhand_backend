@@ -37,3 +37,20 @@ dump.sql
 coverage/
 .nyc_output/
 jest-html-reporters-*
+
+/generated/prisma
+
+# Prisma migrations (keep if you want version control, ignore if not)
+prisma/migrations/
+
+# VSCode
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Optional: lockfiles (ignore if you don’t want to commit them, but usually keep them!)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
